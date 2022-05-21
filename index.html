@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Begin: Header -->
+        <header class="header">
+            <!-- Top -->
+            <div class="header-top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 left">
+                           <ul>
+                               <li>
+                                    <a href="tel:+84377602001" class="tel">Gọi ngay: +84377602001</a>
+                               </li>
+                               <li>
+                                <div class="search-wrap">
+                                    <form action="" class="form-inline">
+                                        <input type="text" name="search" id="search" class="form-control search-input" placeholder="Nhập hoa cần tìm kiếm">
+                                    </form>
+                                </div>
+                               </li>
+                           </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <a href="" class="login-link">Đăng Nhập</a>
+                                </li>
+                                <li>
+                                    <a href="" class="register-link">Đăng ký</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Nav -->
+            <nav class="nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <ul class="nav-left">
+                                <li class="nav-item"><a href="." class="nav-link">Trang chủ</a></li>
+                                <li class="nav-item"><a href="gioi-thieu.html" class="nav-link">Giới thiệu</a></li>
+                                <li class="nav-item"><a href="danh-sach-hoa.html" class="nav-link">Hoa tươi</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="logo">
+                                <a href="." class="logo-link"><img src="./img/logo.png" alt="" class="logo-img"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <ul class="nav-right">
+                                <li class="nav-item"><a href="tin-tuc.html" class="nav-link">Tin tức</a></li>
+                                <li class="nav-item"><a href="hoa-don.html" class="nav-link">Check hóa đơn</a></li>
+                                <li class="nav-item"><a href="lien-he.html" class="nav-link">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End:Header -->
+
+        <!-- Begin: Slider -->
+        <div class="container">
+            <div class="slider">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href=""><img class="d-block w-100" src="./img/slider/slider1.jpg" alt="First slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href=""><img class="d-block w-100" src="./img/slider/slider2.png" alt="Second slide"></a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End: Slider -->
+        <!-- Begin: Banner -->
+        <div class="container">
+            <div class="banner">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="box-content">
+                            <a href="">
+                                <img src="./img/banner/banner1.jpg" alt="" class="banner-img">
+                            </a>
+                            <a href="" class="btn-shop">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="box-content">
+                            <a href="">
+                                <img src="./img/banner/banner2.jpg" alt="" class="banner-img">
+                            </a>
+                            <a href="" class="btn-shop">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="box-content">
+                            <a href="">
+                                <img src="./img/banner/banner3.jpg" alt="" class="banner-img">
+                            </a>
+                            <a href="" class="btn-shop">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: Banner -->
+
+        <!-- Begin: Flower pattern -->
+        <div class="container flowers-pattern">
+            <ul class="tabs">
+                <li class="tab-item active">
+                    <span class="title">
+                        Mẫu hoa mới
+                    </span>
+                </li>
+                <li class="tab-item">
+                    <span class="title">
+                        Mẫu hoa bán chạy
+                    </span>
+                </li>
+                <li class="tab-item">
+                    <span class="title">
+                        Mẫu hoa giảm giá
+                    </span>
+                </li>
+                <div class="line"></div>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active">
+                    <div class="row category-products">
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_12.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane">
+                    <div class="row category-products">
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-md-3">
+                            <div class="">
+                                <div class="product-inner">
+                                    <a href="" class="product-link">
+                                        <img src="./img/products/hoa_binh_5.jpg" alt="" class="product-img">
+                                        <p class="product-name">Ngày cuối tuần</p>
+                                        <p class="price-box">
+                                            <span class="buy-online-text">Mua online:   </span>
+                                            <span class="price">230,000 đ</span>
+                                        </p>
+                                    </a>
+                                    <div class="notify">
+                                        <button class="out-of-product-btn">Đã hết hàng</button>
+                                        <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane">
+                <h2>Ember</h2>
+                <p>Ember.js is a productive, battle-tested JavaScript framework for building modern web applications. It includes everything you need to build rich UIs that work on any device.</p>
+                </div>
+                <div class="tab-pane">
+                <h2>Vue.js</h2>
+                <p>Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. </p>
+                </div>
+            </div>
+        </div>
+        <!-- End: Flower pattern -->
+
+        <!-- Begin: Custom product -->
+            <div class="container custom-product">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-tab">
+                            <span class="title">Giảm giá nhiều nhất</span>
+                        </div>
+                        <div class="content-products">
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-tab">
+                            <span class="title">Sản phẩm nổi bật</span>
+                        </div>
+                        <div class="content-products">
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-tab">
+                            <span class="title">Sản phẩm nổi bật</span>
+                        </div>
+                        <div class="content-products">
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="per-product">
+                                <div class="img-container">
+                                    <a href="" title="Classic">
+                                        <img src="./img/products/hoa_gio_5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="product-name">
+                                        <a href="" title="Classic">Classic</a>
+                                    </h2>
+                                    <div class="price-box">
+                                        <p class="old-price">
+                                            <span class="price-label">Giá mới:</span>
+                                            <span class="price"> 500,000 đ</span>
+                                        </p>
+                                        <a href="" class="minimal-price-link">
+                                            <span class="label">Mua online:</span>
+                                            <span class="price"> 240,000 đ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- End: Custom product -->
+
+        <!-- Begin: Send-Email -->
+        <div class="send-email">
+            <div class="container">
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-4 text-left">
+                            <span>Nhận tin khuyến mãi</span>
+                        </div>
+                        <div class="input-group col-sm-4">
+                            <input type="text" class="form-control" placeholder="Nhập email...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: Send-Email -->
+        
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21369.98013534264!2d105.7438283264873!3d21.050517300454008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1652633228842!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="cart">
+            <div class="cart-btn">
+
+            </div>
+        </div>
+
+        <div id="gotop" style="display: none; border-radius: 50%; cursor: pointer; position: fixed; align-items: center; justify-content: center; background: rgb(255, 51, 102); color: rgb(255, 255, 255); width: 45px; height: 45px; bottom: 100px; right: 25px;">↑</div>
+
+        <!-- Begin: Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-left">
+                        © Bản quyền thuộc về Shop hoa tươi
+                    </div>
+                    <div class="col-sm-7 text-right">Ha Noi | Email: tnp.imex@gmail.com | Hotline: +84377602001</div>
+                </div>
+            </div>
+        </footer>
+        <!-- End: Footer -->
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

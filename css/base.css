@@ -1,0 +1,17 @@
+:root {
+    --top-height: 50px;
+    --nav-height: 140px;
+    --text-color: #725754;
+    --primary-color: #FA5999;
+    --product-name-color: #FF3366;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
